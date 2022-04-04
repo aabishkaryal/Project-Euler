@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	problem1 "github.com/aabishkaryal/Project-Euler/Problem1"
+	problem10 "github.com/aabishkaryal/Project-Euler/Problem10"
 	problem2 "github.com/aabishkaryal/Project-Euler/Problem2"
 	problem3 "github.com/aabishkaryal/Project-Euler/Problem3"
 	problem4 "github.com/aabishkaryal/Project-Euler/Problem4"
@@ -25,4 +26,5 @@ func main() {
 	fmt.Println("Problem 7: ", problem7.Solution(10001))
 	fmt.Println("Problem 8: ", problem8.Solution(13))
 	fmt.Println("Problem 9: ", problem9.Solution(1000))
+	fmt.Println("Problem 10: ", problem10.Solution(2_000_000))
 }
